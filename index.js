@@ -1,7 +1,7 @@
 // Your code here
 
 class Cat {
-  consstructor(name, sex) {
+  constructor(name, sex) {
     this.name = name;
     this.sex = sex;
   }
@@ -12,7 +12,13 @@ class Cat {
 
 
 class Dog {
-  
+  constructor(name, sex) {
+    this.name = name;
+    this.sex = sex;
+  }
+    speak () {
+      return `${this.name} says woof!`
+  }
 }
 
 class Bird {
