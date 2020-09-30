@@ -29,4 +29,6 @@ constructor(name, sex) {
     speak () {
       return `${this.name} says squawk!`
   }
+  speak () {
+      return `It's me ${this.name}, the parrot!`
 }
